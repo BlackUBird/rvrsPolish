@@ -7,6 +7,7 @@
 #include <string>
 #include<vector>
 #include<sstream>
+#include <cstdlib>
 
 
 //演算記号ならtrueを返却する
@@ -111,6 +112,8 @@ int main() {
 
 	std::cout << rpoli << std::endl;
 	ans = posfix(rpoli);
+	
+	system( "PAUSE" );
 
 	return 0;
 }
